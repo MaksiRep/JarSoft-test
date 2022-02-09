@@ -1,0 +1,36 @@
+.inputsStyle {
+    position: relative;
+    bottom: 1979px;
+    left: 600px;
+    padding-bottom: 40px;
+    width: 500px;
+}
+
+.buttonsStyle {
+    color: black;
+    font-size: 17px;
+    background: floralwhite;
+    cursor: pointer;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    bottom: 1418px;
+    left: 250px;
+}
+
+.textStyle {
+    position: relative;
+    left: 400px;
+    padding-bottom: 42px;
+    bottom: 1592px;
+}
+
+.square1 {
+    width: 970px;
+    height: 680px;
+    background: transparent;
+    border: 1px solid black;
+    position: relative;
+    left: 250px;
+    bottom: 973px;
+}
