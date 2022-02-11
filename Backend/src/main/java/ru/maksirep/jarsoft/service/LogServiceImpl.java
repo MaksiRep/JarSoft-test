@@ -1,6 +1,5 @@
 package ru.maksirep.jarsoft.service;
 
-
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -40,9 +39,8 @@ public class LogServiceImpl implements LogService {
         logsRepository.save(new Logs(userAgent, ip, banner.getPrice(), reason, banner, categoryList));
     }
 
-    @Override
     @Scheduled(fixedDelay = TIME_FOR_CLEAN_LOGS, initialDelay = DELAY_FOR_START)
     public void deleteAll() {
-        System.out.println("hi");
+        logsRepository.deleteAll();
     }
 }

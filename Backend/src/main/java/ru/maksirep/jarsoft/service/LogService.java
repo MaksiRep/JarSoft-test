@@ -11,5 +11,4 @@ public interface LogService {
 
     void saveLogs (String userAgent, String ip, String reason, Banner banner, List<Category> categoryList);
 
-    void deleteAll();
 }
